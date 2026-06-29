@@ -184,6 +184,7 @@ function HeroSection() {
                 </span>
               </div>
               <motion.button
+                onClick={() => window.open('https://huzzler.io/', '_blank')}
                 whileHover={{ scale: 1.04, boxShadow: "0 0 24px rgba(108,92,231,0.6)" }}
                 whileTap={{ scale: 0.97 }}
                 className="h-[54px] px-8 rounded-full bg-[#6C5CE7] text-white text-sm font-bold shadow-[0_4px_16px_0_rgba(108,92,231,0.4)] flex-shrink-0 transition-all"
